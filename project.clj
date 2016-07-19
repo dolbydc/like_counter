@@ -20,7 +20,7 @@
   :cljsbuild {
     :builds [{:id "dev"
               :source-paths ["src/cljs"]
-              :figwheel false
+              :figwheel true
               :compiler {:main "like-counter.core"
                          :asset-path "cljs/out"
                          :output-to "resources/public/cljs/main.js"
